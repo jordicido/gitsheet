@@ -48,6 +48,10 @@
 
 - **git bisect**
 
+## Què és reflog
+
+Git realitza el seguiment de les actualitzacions a l'extrem de les branques a través d'un mecanisme anomenat registres de referències o "reflogs". Moltes de les ordres de Git accepten un paràmetre per especificar una referència o "ref", que és un punter a una confirmació.
+
 ## Digues la teva opinió
 
 Em pots escriure a l'adreça blablabla@gmail.com
