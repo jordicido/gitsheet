@@ -25,3 +25,13 @@
 - **git rebase --continue** – continua el rebase después de resolver los conflictos
 - **git rebase --abort** – cancela el rebase y vuelve al estado anterior
 - **git rebase --skip** – salta el commit que ha dado conflicto y continua con el rebase
+
+## Com funciona cherry-pick
+
+- **git cherry-pick ‘commit’** – aplica un commit de otra rama a la rama actual
+- **git cherry-pick --continue** – continua el cherry-pick después de resolver los conflictos
+- **git cherry-pick --abort** – cancela el cherry-pick y vuelve al estado anterior
+- **git cherry-pick --skip** – salta el commit que ha dado conflicto y continua con el cherry-pick
+- **git cherry-pick -n ‘commit’** – aplica un commit de otra rama a la rama actual, pero no hace un commit
+- **git cherry-pick -x ‘commit’** – aplica un commit de otra rama a la rama actual, pero añade el hash del commit original al mensaje del commit
+- **git cherry-pick -e ‘commit’** – aplica un commit de otra rama a la rama actual, pero te deja editar el mensaje del commit
