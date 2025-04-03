@@ -26,6 +26,14 @@
 - **git rebase --abort** – cancela el rebase y vuelve al estado anterior
 - **git rebase --skip** – salta el commit que ha dado conflicto y continua con el rebase
 
+## Com fer git squash
+
+- **git rebase -i HEAD~n** – reescribe el historial de commits para que parezca que se han hecho en una sola rama, pero te deja elegir los commits que quieres modificar
+- **pick** – manté el commit tal cual
+- **squash** – combina el commit amb el anterior
+- **fixup** – combina el commit amb el anterior i no et deixa modificar el missatge del commit
+- **edit** – modifica el commit i et deixa modificar el missatge del commit
+
 ## Com funciona cherry-pick
 
 - **git cherry-pick ‘commit’** – aplica un commit de otra rama a la rama actual
@@ -35,3 +43,12 @@
 - **git cherry-pick -n ‘commit’** – aplica un commit de otra rama a la rama actual, pero no hace un commit
 - **git cherry-pick -x ‘commit’** – aplica un commit de otra rama a la rama actual, pero añade el hash del commit original al mensaje del commit
 - **git cherry-pick -e ‘commit’** – aplica un commit de otra rama a la rama actual, pero te deja editar el mensaje del commit
+
+## Com funciona bisect
+
+- **git bisect**
+
+## Digues la teva opinió
+
+Em pots escriure a l'adreça blablabla@gmail.com
+
