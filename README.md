@@ -4,4 +4,8 @@ En esta guía se presentan los conceptos fundamentales de Git, una herramienta d
 
 ## Comandos básicos
 
-git init - Inicializa un repositorio de GIT.
+git init - Inicializa un repositorio de GIT.(Crea un repositorio vacío)
+
+git add - Añade un archivo al área de preparación. (Cuando tu creas un archivo nuevo, lo "añades a git")
+
+git commit -m "mensaje" - "Sube" los cambios realizados y los registra con el mensaje que tú pongas, que normalmente suele ser explicativo del cambio que has realizado.
