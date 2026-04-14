@@ -13,3 +13,5 @@ git commit -m "mensaje" - Mete los cambios realizados en el repositorio local y 
 git log - Muestra el historial de commits realizados en el repositorio.
 
 git status - Muestra el estado actual del repositorio, incluyendo los archivos modificados, los archivos en el área de preparación y los archivos sin seguimiento.
+
+git pull - Descarga los cambios realizados en el repositorio remoto y los fusiona con tu repositorio local.
